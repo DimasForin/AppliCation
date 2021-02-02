@@ -14,6 +14,9 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
 Button myStartButton;
 TextView myTextOne;
+
+//Привет 121212121
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
