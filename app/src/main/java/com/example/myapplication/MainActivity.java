@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
 Button myStartButton;
 TextView myTextOne;
 
-//Привет 12121212112323
+//Привет
+    //dfs
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
