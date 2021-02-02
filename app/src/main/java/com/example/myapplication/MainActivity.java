@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 Button myStartButton;
 TextView myTextOne;
 
-//Привет 121212121
+//Привет 12121212112323
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
