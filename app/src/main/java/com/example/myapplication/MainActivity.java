@@ -16,7 +16,6 @@ Button myStartButton;
 TextView myTextOne;
 
 
-//hello
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
