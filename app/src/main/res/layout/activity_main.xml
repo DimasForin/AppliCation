@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/main_theme"
     tools:context=".MainActivity"
-    tools:ignore="ExtraText">
+    tools:ignore="ExtraText" >
 
 
     <TextView
@@ -39,7 +39,7 @@
     <TextView
         android:id="@+id/textView8"
         android:layout_width="253dp"
-        android:layout_height="245dp"
+        android:layout_height="256dp"
         android:isScrollContainer="true"
         android:scrollbars="vertical"
         android:text="Веселый Колобок проведет вас дорогами Сказочного леса\u000A
@@ -52,10 +52,10 @@
         android:textSize="@dimen/vtoroy_rasmer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.272" />
+        app:layout_constraintVertical_bias="0.378" />
 
     <Button
         android:id="@+id/button"
