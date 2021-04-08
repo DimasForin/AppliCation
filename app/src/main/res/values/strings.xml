@@ -3,4 +3,5 @@
     <string name="scroll"></string>
     <string name="header_1">Математический квест</string>
     <string name="about_title">aboutt_title</string>
+    <string name="first_level">first level</string>
 </resources>

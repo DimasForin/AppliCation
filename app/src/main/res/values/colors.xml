@@ -8,4 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ghost">#0000</color>
+    <color name="done_green">#a4c7</color>
+    <color name="pink">#ff008d</color>
+    <color name="pink_bright">#ff00ff</color>
+    <color name="blue_sky">#afeeee</color>
+    <color name="blue">#00c3ff</color>
+    <color name="background_btn_color">#FF03DAC5</color>
 </resources>
