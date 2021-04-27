@@ -50,6 +50,10 @@ public static String TAG="tag";
         edit.setVisibility(View.INVISIBLE);
         btn2.setEnabled(false);
         btn3.setEnabled(false);
+        btn4.setEnabled(false);
+        btn5.setEnabled(false);
+        btn6.setEnabled(false);
+        btn7.setEnabled(false);
         btn1.setOnClickListener(new View.OnClickListener() {
 
 
@@ -57,6 +61,7 @@ public static String TAG="tag";
 
             @Override
             public void onClick(View v) {
+
                 Random xa= new Random();
                 a=xa.nextInt(100);
                 Random xb= new Random();
@@ -64,6 +69,7 @@ public static String TAG="tag";
                 //System.out.println("eto b "+b);
                 for (;b>a;a+=7){}
                 c=b;
+                //Random
                 edit.setVisibility(View.VISIBLE);
                 edit.setHint(a+"-"+c);
                 int right= a-c;
@@ -370,9 +376,9 @@ public static String TAG="tag";
                             btn3.setBackgroundColor(getResources().getColor(R.color.done_green));
                             edit.setVisibility(View.INVISIBLE);
                             btn7.setEnabled(false);
+                            setPass();
                             Intent intent = new Intent(FirstLevel.this, AboutActivity.class);
                             startActivity(intent);
-                            SharedPreferences sp=null;//TODO
                         }else{
                             Toast.makeText(FirstLevel.this, "Попробуй еще раз", Toast.LENGTH_SHORT).show();
                         }
@@ -380,5 +386,11 @@ public static String TAG="tag";
                 });
             }
         });
+    }
+    public void setPass(){
+        SharedPreferences sp = getSharedPreferences(AboutActivity.MY_SETTINGS,MODE_PRIVATE);
+        SharedPreferences.Editor editor = sp.edit();
+        editor.putBoolean(AboutActivity.PASS,true);
+        editor.apply();
     }
 }

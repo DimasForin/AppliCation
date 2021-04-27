@@ -5,10 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/main_theme"
+    android:orientation="horizontal"
     tools:context=".MainActivity"
-    tools:ignore="ExtraText"
-    android:orientation="horizontal" >
+    tools:ignore="ExtraText">
 
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="253dp"
+        android:layout_height="256dp"
+        android:layout_marginBottom="36dp"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:text="@string/vstup"
+        android:textColor="@color/white"
+        android:textSize="@dimen/vtoroy_rasmer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Разумашки"
+        android:textColor="@color/white"
+        android:textSize="@dimen/norm_rasmer"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
         android:id="@+id/textView6"
@@ -18,45 +47,11 @@
         android:text="@string/header_1"
         android:textColor="@color/white"
         android:textSize="@dimen/norm_rasmer"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Разумашки"
-        android:textColor="@color/white"
-        android:textSize="@dimen/norm_rasmer"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="253dp"
-        android:layout_height="256dp"
-        android:isScrollContainer="true"
-        android:scrollbars="vertical"
-        android:text="Веселый Колобок проведет вас дорогами Сказочного леса\u000A
-        -Правильное реше-\u000Aние каждого задания подсказывает номер конверта со следующим заданием\u000A
-        -Задача маленького исследователя находить конверты с нужными номерами и правильные решения спрятанных в конвертах задачек\u000A
-        -Просто кликните мышкой в нужный конверт и вам откроется следующее задание\u000A
-        -Не бойтесь, если заблудитесь, Колобок всегда на чеку – он поможет советом!\u000A
-        -Вперед!"
-        android:textColor="@color/white"
-        android:textSize="@dimen/vtoroy_rasmer"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.378" />
 
     <Button
         android:id="@+id/button"

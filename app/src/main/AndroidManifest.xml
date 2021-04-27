@@ -26,6 +26,9 @@
             android:label="@string/first_level">
 
         </activity>
+        <activity android:name=".SecondLevel"
+            android:screenOrientation="landscape"
+            />
     </application>
 
 </manifest>
