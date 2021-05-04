@@ -2,7 +2,7 @@
 <resources>
     <dimen name="my_value">16dp</dimen>
     <dimen name="norm_rasmer">25dp</dimen>
-    <dimen name="vtoroy_rasmer">18dp</dimen>
+    <dimen name="vtoroy_rasmer">18sp</dimen>
     <dimen name="dlya_cvt">40</dimen>
     <dimen name="hint">34sp</dimen>
 </resources>
