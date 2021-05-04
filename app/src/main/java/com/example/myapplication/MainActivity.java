@@ -26,8 +26,8 @@ TextView myTextOne;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        myTextOne=findViewById(R.id.textView8);
-        myStartButton=findViewById(R.id.button);
+        myTextOne = findViewById(R.id.textView8);
+        myStartButton = findViewById(R.id.button);
         myTextOne.setMovementMethod(new ScrollingMovementMethod());
         myStartButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +36,6 @@ TextView myTextOne;
                 startActivity(intent);
             }
         });
-        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 }
