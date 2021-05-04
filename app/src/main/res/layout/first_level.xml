@@ -25,22 +25,22 @@
         app:layout_constraintVertical_bias="0.954"
         />
 
+
     <Button
         android:id="@+id/button2"
-        android:layout_width="67dp"
-        android:layout_height="58dp"
-        android:text="35"
+        android:layout_width="117dp"
+        android:layout_height="54dp"
         android:background="@color/ghost"
+        android:text="35"
         android:textColor="@color/red"
         android:textSize="@dimen/vtoroy_rasmer"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.505" />
-
+        app:layout_constraintVertical_bias="0.498" />
 
     <Button
         android:id="@+id/button3"
@@ -107,13 +107,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/ghost"
+        android:text="Button"
         android:textColor="@color/red"
         android:textSize="@dimen/vtoroy_rasmer"
         android:textStyle="bold"
-        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.87" />
@@ -145,14 +145,15 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="109dp"
-        android:layout_height="46dp"
+        android:layout_width="121dp"
+        android:layout_height="48dp"
         android:src="@drawable/fon"
         app:layout_constraintBottom_toBottomOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/button2" />
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -161,8 +162,10 @@
         android:src="@drawable/fon"
         app:layout_constraintBottom_toBottomOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toTopOf="@+id/button3" />
+        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -173,7 +176,8 @@
         app:layout_constraintEnd_toEndOf="@+id/button4"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toTopOf="@+id/button4" />
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -182,14 +186,15 @@
         android:src="@drawable/fon"
         app:layout_constraintBottom_toBottomOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="@+id/button5"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button5"
         app:layout_constraintTop_toTopOf="@+id/button5"
         app:layout_constraintVertical_bias="0.0" />
+
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="102dp"
-        android:layout_height="48dp"
+        android:layout_width="111dp"
+        android:layout_height="49dp"
         android:src="@drawable/fon"
         app:layout_constraintBottom_toBottomOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="@+id/button6"
@@ -200,15 +205,15 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="109dp"
-        android:layout_height="46dp"
+        android:layout_width="128dp"
+        android:layout_height="51dp"
         android:src="@drawable/fon"
         app:layout_constraintBottom_toBottomOf="@+id/button7"
         app:layout_constraintEnd_toEndOf="@+id/button7"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="@+id/button7"
         app:layout_constraintTop_toTopOf="@+id/button7"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
