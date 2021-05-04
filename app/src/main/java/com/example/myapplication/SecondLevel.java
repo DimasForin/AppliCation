@@ -2,7 +2,6 @@ package com.example.myapplication;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -34,13 +33,13 @@ public class SecondLevel extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_level);
         edit=findViewById(R.id.etext);
-        btn1=findViewById(R.id.button8);
-        btn2=findViewById(R.id.button9);
-        btn3=findViewById(R.id.button10);
-        btn4=findViewById(R.id.button11);
-        btn5=findViewById(R.id.button12);
-        btn6=findViewById(R.id.button13);
-        btn7=findViewById(R.id.button14);
+        btn1=findViewById(R.id.button6);
+        btn2=findViewById(R.id.button2);
+        btn3=findViewById(R.id.button5);
+        btn4=findViewById(R.id.button7);
+        btn5=findViewById(R.id.button1);
+        btn6=findViewById(R.id.button3);
+        btn7=findViewById(R.id.button4);
         edit.setVisibility(View.INVISIBLE);
         btn2.setEnabled(false);
         btn3.setEnabled(false);
