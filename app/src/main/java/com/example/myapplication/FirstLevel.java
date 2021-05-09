@@ -90,9 +90,11 @@ public static String TAG="tag";
                             btn1.setEnabled(false);
                             btn2.setEnabled(true);
                             btn2.setText(reply);
+                            edit.setText(null);
                             //задать вопрос setBackgroundColor setForeground i pro xml cveta ne zabud chto za INT COLOR CHO ON INT?
                         }else{
                             Toast.makeText(FirstLevel.this, "Попробуй еще раз", Toast.LENGTH_SHORT).show();
+                            edit.setText(null);
                         }
                     }
                 });
@@ -140,8 +142,10 @@ public static String TAG="tag";
                             btn2.setEnabled(false);
                             btn3.setEnabled(true);
                             btn3.setText(reply2);
+                            edit.setText(null);
                         }else{
                             Toast.makeText(FirstLevel.this, "Попробуй еще раз", Toast.LENGTH_SHORT).show();
+                            edit.setText(null);
                         }
                     }
                 });
@@ -189,8 +193,10 @@ public static String TAG="tag";
                             btn3.setEnabled(false);
                             btn4.setEnabled(true);
                             btn4.setText(reply3);
+                            edit.setText(null);
                         }else{
                             Toast.makeText(FirstLevel.this, "Попробуй еще раз", Toast.LENGTH_SHORT).show();
+                            edit.setText(null);
                         }
                     }
                 });
@@ -237,8 +243,10 @@ public static String TAG="tag";
                             btn4.setEnabled(false);
                             btn5.setEnabled(true);
                             btn5.setText(reply4);
+                            edit.setText(null);
                         }else{
                             Toast.makeText(FirstLevel.this, "Попробуй еще раз", Toast.LENGTH_SHORT).show();
+                            edit.setText(null);
                         }
                     }
                 });
@@ -284,8 +292,10 @@ public static String TAG="tag";
                             btn5.setEnabled(false);
                             btn6.setEnabled(true);
                             btn6.setText(reply5);
+                            edit.setText(null);
                         }else{
                             Toast.makeText(FirstLevel.this, "Попробуй еще раз", Toast.LENGTH_SHORT).show();
+                            edit.setText(null);
                         }
                     }
                 });
@@ -331,8 +341,10 @@ public static String TAG="tag";
                             btn6.setEnabled(false);
                             btn7.setEnabled(true);
                             btn7.setText(reply6);
+                            edit.setText(null);
                         }else{
                             Toast.makeText(FirstLevel.this, "Попробуй еще раз", Toast.LENGTH_SHORT).show();
+                            edit.setText(null);
                         }
                     }
                 });
@@ -381,6 +393,7 @@ public static String TAG="tag";
                             startActivity(intent);
                         }else{
                             Toast.makeText(FirstLevel.this, "Попробуй еще раз", Toast.LENGTH_SHORT).show();
+                            edit.setText(null);
                         }
                     }
                 });
